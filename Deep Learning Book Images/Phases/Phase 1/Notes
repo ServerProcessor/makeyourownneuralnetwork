@@ -1,1 +1,12 @@
 Deep Learning = Input > Features > Additional Layers of more abstract features > Mapping from features > Output
+
+Some of the earliest learning algorithms we recognize today were intended
+to be computational models of biological learning, i.e. models of how learning
+happens or could happen in the brain. As a result, one of the names that deep
+learning has gone by is artificial neural networks (ANNs).
+
+The earliest predecessors of modern deep learning were simple linear models
+motivated from a neuroscientific perspective. These models were designed to
+take a set of n input values x 1 , . . . , x n and associate them with an output y.
+These models would learn a set of weights w 1 , . . . , w n and compute their output
+f(x , w ) = x 1 w 1 + · · · + x n w n .
